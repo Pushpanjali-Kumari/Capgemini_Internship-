@@ -3,6 +3,8 @@ package com.capgemini.collectionsexamples;
 public class Student {
 private int stdId;
 private String stdName;
+private int marks;
+
 
 public Student() {
 	super();
@@ -23,6 +25,12 @@ public String getStdName() {
 }
 public void setStdName(String stdName) {
 	this.stdName = stdName;
+}
+public int getMarks() {
+	return marks;
+}
+public void setMarks(int marks) {
+	this.marks = marks;
 }
 
 }
